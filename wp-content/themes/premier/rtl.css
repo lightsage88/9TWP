@@ -1,0 +1,354 @@
+/* body {direction:rtl;} */
+
+caption, th, td{
+    text-align: right;
+}
+
+ul, ol{
+    margin: 0 0.5em 1.5em 0 ;
+}
+
+ul ul, ol ol, ul ol, ol ul{
+    margin-right: 1.5em;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+    border-color: #ccc #ccc #bbb #ccc ;
+}
+
+button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+    border-color: #ccc #bbb #aaa #bbb ;
+}
+
+button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, html input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active{
+    border-color: #aaa #bbb #bbb #bbb ;
+}
+
+textarea{
+    padding-right: 3px;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignright{
+    float: left;
+    margin-right: 1.5em;
+}
+
+#calendar_wrap{
+    padding-right: 6px;
+}
+
+.textwidget{
+    padding-right: 6px;
+}
+
+.topbar_content_left .contact{
+    margin-right: 1em;
+}
+
+.topbar_content_right{
+    left: 10px;
+    text-align: left;
+    padding-left: 4px;
+}
+
+#primary{
+    float: right;
+    margin: 0 0 0 -27% ;
+}
+
+#content{
+    margin: 0 0 0 22% ;
+}
+
+#content.fullwidth{
+    margin-left: 0;
+}
+
+#content.fullwidth_home{
+    margin-left: 0;
+}
+
+#secondary, #tertiary{
+    float: left;
+    padding: 30px 0 0 30px ;
+}
+
+#tertiary{
+    clear: left;
+}
+
+#primary-right{
+    float: left;
+    margin: 0 -27% 0 0 ;
+    padding: 30px 0 0 30px ;
+}
+
+#content-right{
+    margin: 0 27% 0 0 ;
+}
+
+#sidebar-left{
+    float: right;
+    padding: 30px 30px 0 0 ;
+}
+
+#tertiary-left{
+    clear: right;
+}
+
+.site-header .site-introduction{
+    background: linear-gradient(0deg, transparent right 0px, center #fff 0) top left   linear-gradient(90deg, transparent 0px, #fff 0) top right  linear-gradient(315deg, transparent 30px, #fff 0) bottom left  linear-gradient(45deg, transparent 30px, #fff 0) bottom right;
+}
+
+.site-logo{
+    background: linear-gradient(0deg, transparent right 0px, center #fff 0) top left   linear-gradient(90deg, transparent 0px, #fff 0) top right  linear-gradient(315deg, transparent 50px, #fff 0) bottom left  linear-gradient(45deg, transparent 50px, #fff 0) bottom right;
+}
+
+.main-navigation{
+    float: right;
+}
+
+.main-navigation li > a:after{
+    padding-right: 4px;
+}
+
+.main-navigation ul{
+    margin: 0px 0 0 0 ;
+    padding-right: 20px;
+    float: right;
+}
+
+.main-navigation ul li{
+    float: right;
+}
+
+.main-navigation ul li a{
+    padding: 12px 20px 10px 20px ;
+}
+
+.main-navigation ul li a i{
+    margin-left: 10px;
+}
+
+.main-navigation ul ul{
+    margin-right: 1px;
+}
+
+.main-navigation ul ul li a{
+    border-right: none;
+    border-left: none;
+    text-align: right;
+}
+
+.main-navigation ul ul li{
+    float: right;
+}
+
+.main-navigation ul li:hover ul{
+    right: 0;
+}
+
+.main-navigation ul li li:hover ul{
+    right: 230px;
+}
+
+.main-navigation ul ul li:last-child a{
+    border-left: none;
+}
+
+.menu-toggle{
+    background: url(images/menu.png) left no-repeat;
+    text-align: right;
+}
+
+.site-header .search-form{
+    right: inherit;
+    left: 0;
+}
+
+.site-header .search-field{
+    background-position: right 5px center;
+    padding: 0 38px 0 0 ;
+}
+
+.sticky h2 a{
+    border-radius: 0.2em 0.2em 0 0;
+}
+
+.client_recent{
+    margin: 0 4px 20px 4px ;
+}
+
+.entry-header-wrap:before{
+    right: 0;
+    left: 0;
+}
+
+.entry-meta{
+    padding-right: 1.5em;
+}
+
+.search-title{
+    padding: 30px 0 0 0 ;
+}
+
+.entry-date:before, .comments-link:before, .edit-link:before, .tag-links:before, .cat-links:before, .byline:before{
+    padding-left: 2px;
+}
+
+.entry-date, .comments-link, .edit-link, .tag-links, .cat-links, .byline{
+    margin-left: 8px;
+}
+
+.comments-link:before{
+    padding-left: 6px;
+}
+
+.entry-content table, .comment-content table{
+    border-right-width: 0;
+    margin: 0 0 2.083em -0.083em ;
+    text-align: right;
+}
+
+.entry-content tr th, .entry-content thead th, .comment-content tr th, .comment-content thead th{
+    border-right: 1px solid #d9d9d9;
+}
+
+.entry-content tr td, .comment-content tr td{
+    border-width: 1px 1px 0 0 ;
+}
+
+.entry-content ul li{
+    margin-right: 1em;
+}
+
+.entry-content ol{
+    margin: 0 1.5em 1.5em 0 ;
+}
+
+.authorlist{
+    float: right;
+}
+
+.format-aside .entry-content{
+    border-right: 4px solid rgba( 0, 0, 0, 0.1 );
+    padding-right: 1em;
+}
+
+.site-content .nav-previous{
+    float: right;
+}
+
+.site-content .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.comment .avatar{
+    float: right;
+    margin-left: 1.25em;
+}
+
+.comment-content{
+    margin: 1em 4.5em 0 0 ;
+}
+
+.cooment .reply{
+    float: left;
+    margin: 0 0 10px 10px ;
+}
+
+#commentform input[type="text"]{
+    margin-right: 0.5em;
+}
+
+#smoothup{
+    left: 20px;
+}
+
+.social-media{
+    text-align: left;
+}
+
+.withCart .social-media, .top-bar-mini-cart{
+    float: left;
+    margin-right: 2em;
+}
+
+.social-media li{
+    float: left;
+    margin: 3px 4px 0 0 ;
+}
+
+#featuretext_container{
+    float: right;
+}
+
+.featuretext_left p{
+    padding-right: 20px;
+}
+
+.featuretext_right{
+    margin-right: 10px;
+}
+
+.featuretext p{
+    padding: 0 40px 40px 40px ;
+}
+
+.thumbs-more-link{
+    text-align: right;
+}
+
+.col{
+    float: right;
+    margin: 1% 1.6% 1% 0 ;
+}
+
+.col:first-child{
+    margin-right: 0;
+}
+
+.post-thumbnail{
+    margin-left: 4px;
+}
+
+.blog-lists-title{
+    float: right;
+    margin-right: 8px;
+}
+
+.woocommerce .woocommerce-ordering select{
+    padding: 0 0.75em 0 1.538em ;
+}
+
+@media screen and (max-width: 980px){
+    #content{
+        padding-right: 4px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .header-image{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    .col{
+        margin: 1% 0% 1% 0 ;
+    }
+
+    .featuretext_top{
+        margin: 0 0 20px 0 ;
+    }
+
+}
